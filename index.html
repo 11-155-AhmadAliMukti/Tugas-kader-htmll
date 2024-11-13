@@ -3,80 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata </title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV - Ahmad Ali Mukti</title>
 </head>
 <body>
-    <hr> 
-    <center>
-    <h1>Biodata Diri</h1> 
-    </center>
-    </hr>
-    <hr> 
-    <center>
-    <img src="Foto.jpeg"alt="foto"> 
-    </center>
-    </hr>
-    <hr>
-        <p>Hai! Saya Ahmad Ali Mukti Seorang Mahasiswa Progam Studi Teknik Informatika di Institut Teknologi Sumatera. Saya memiliki minat di bidang Web Development dan saat ini sedang belajar seecara mandiri melalui platform seperti Youtube dan juga mengikuti Bootcamp yang diadakan oleh RevoU dan juga Dicoding
-        </p>
-    </hr>
-    <hr>
-    <center>
-        <table border="1">
-            <th colspan="2">
-                <center> Data Diri</center>
-            </th>
-            <tr>
-                <th>Nama  </th>
-                <td>Ahmad Ali Mukti</td>
-            </tr>
-            <tr>
-                <th> Nim  </th>
-                <td>123140155</td>
-            </tr>
-            <tr>
-                <th>
-                    Alamat
-                </th>
-                <td>Sukarame, Bandar Lampung</td>
-            </tr>
-            <tr>
-                <th>Umur </th>
-                <td>19 Tahun</td>
-            </tr>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <img src="Foto.jpeg" alt="Foto" class="profile-photo">
+            <div class="header-info">
+                <h1>Ahmad Ali Mukti</h1>
+                <p>NIM 123140155</p>
+                <p>ahmadalimukti2@gmail.com</p>
+            </div>
+        </div>
 
-        </table>
-    </center>
-    </hr>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#tentang-saya">Tentang Saya</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#kemampuan">Kemampuan</a></li>
+            </ul>
+        </nav>
 
-    <br>
+        <!-- Tentang Saya -->
+        <section id="tentang-saya">
+            <h2>TENTANG SAYA</h2>
+            <hr>
+            <p>Hai! Saya Ahmad Ali Mukti, seorang Mahasiswa Program Studi Teknik Informatika di Institut Teknologi Sumatera. Saya memiliki minat di bidang Web Development dan sedang belajar secara mandiri melalui platform seperti Youtube dan juga mengikuti Bootcamp yang diadakan oleh RevoU dan Dicoding.</p>
+        </section>
 
-    <hr>
-     <h4>Riwayat Pendidikan</h4>
-     <li>Program Studi Teknik Informatika, Institut Teknologi Sumatera | 2023 - sekarang</li>
-     <li>SMA Negeri 5 Bandar Lampung | 2020 - 2023</li>
-     <li>SMP Negeri 31 Bandar Lampung | 2017 - 2020</li> 
-</hr>
+        <!-- Pendidikan -->
+        <section id="pendidikan">
+            <h2>PENDIDIKAN</h2>
+            <hr>
+            <table class="education-table">
+                <tr>
+                    <th>Tahun</th>
+                    <th>Institusi</th>
+                    <th>Jurusan</th>
+                </tr>
+                <tr>
+                    <td>2023 - Sekarang</td>
+                    <td>Institut Teknologi Sumatera</td>
+                    <td>Teknik Informatika</td>
+                </tr>
+                <tr>
+                    <td>2020 - 2023</td>
+                    <td>SMA Negeri 5 Bandar Lampung</td>
+                    <td>IPA</td>
+                </tr>
+                <tr>
+                    <td>2017 - 2020</td>
+                    <td>SMP Negeri 31 Bandar Lampung</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </section>
 
-    <hr>
-        <h4>Keahlian</h4>
-        <li>Microsoft Word </li>
-        <li>Microsoft Excel</li>
-        <li>C++</li>
-        <li>Phyton</li>
-        <li>Html</li>
-        <li>Css</li>
-        <li>Javascript</li>
-</hr>
+        <!-- Kemampuan -->
+        <section id="kemampuan">
+            <h2>KEMAMPUAN</h2>
+            <hr>
+            <ul>
+                <li>Microsoft Word</li>
+                <li>Microsoft Excel</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
 
-<hr>
-<center> 
-    <h3>Contact Me</h3>
-    <a href="https://www.instagram.com/ahmadali.m1?igsh=MWR2aGIzdWtyaDhobg==" target="_blank">Instagram </a>
-    <a href ="https://www.linkedin.com/in/ahmad-ali-mukti-9b1915323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target ="_blank">Linkedin</a>
-</center>
-</hr>
-
-
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">CV Ahmad Ali Mukti &copy; 2024</div>
+                </div>
+                <div class="footer-center-left">
+                    <div class="footer-location">Bandar Lampung, Indonesia</div>
+                    <div class="footer-location">ahmadalimukti2@gmail.com</div>
+                </div>
+                <div class="footer-right">
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/ahmadali.m1" target="_blank">📷</a>
+                        <a href="https://www.linkedin.com/in/ahmad-ali-mukti-9b1915323" target="_blank">✉️</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
